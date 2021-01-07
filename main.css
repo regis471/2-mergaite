@@ -2,44 +2,89 @@ body > div{
     display: inline-block;
     width: 750px;
     margin-left: calc((100% - 750px) / 2);
-    background-color: aquamarine ;
+    margin-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#9E9E9E ;
+     
 }
 
 
-div > header {
+header {
     display: inline-block;
     width: 100%;
+    
 }
 header > img {
     display: inline-block ;
     float: left;
+    height: 50px;
+    
 
 }
 
-header > nav {
+nav {
     display: inline-block;
-    float:right;
+    float: right;
+    margin-top: 10px;
 }
-
-nav > a{
+ 
+a{
     display: inline-block;
+    color: #9E9E9E ;
+    float: left ;
+    text-decoration: none;
+    padding: 5px;  
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 10px;
+    line-height: 20px;
    
 }
 
-div > main { 
-    display: inline-block;
+a:nth-of-type(5){
+    border: 3px solid #9E9E9E;
+    margin-top: -3px;
+    margin-left: 20px;
+    text-transform: uppercase;
+    border-radius: 18px;
+
+        
+    
+}
+
+
+
+main { 
+    display: inline-block ;
     width: 100%;
+    margin-top: 22px;
 }
 main > div{
-    display: inline-block;
+    display: inline-block ;
+    width: 35% ;
+    float: left ;
+    margin-left: 5% ;
+    margin-top: 35px;
+
 }
-div > h1{
+h1{
     display: inline-block;
+    width: 100%;
+    font-size: 60px;
+    margin: 0;
+    
+
 }
-div > p{
+p{
     display: inline-block;
+    width: 100%;
+    font-size: 20px;
+    margin: 0;
 }
 
 main > img{
     display: inline-block;
+    width: 50%;
+    float: left;
+    margin-left: 10%;
 }
