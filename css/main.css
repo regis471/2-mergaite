@@ -1,6 +1,6 @@
 body > div{
     display: inline-block;
-    width: 750px;
+    width: 900px;
     margin-left: calc((100% - 750px) / 2);
     margin-top: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
